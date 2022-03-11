@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> AU Treasury - My Chest </title>
+    <link rel="stylesheet" href="mychest-style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <a href="#"><img src="images/simbol.png"></a>
+      <div class="logo_name">
+      <span><a href="#"><img src="images/logo.png"></a></span>
+      </div>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Chest Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Writer Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Work Manager</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Prompt Manager</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Work Stats</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Messages</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-heart' ></i>
+            <span class="links_name">Favorites</span>
+          </a>
+        </li>
+        <li class="setting">
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Chest Home</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class='bx bx-search'></i></button>
+      </div>
+      <div class="profile-details">
+        <img src="images/profile.jpg" alt="">
+        <span class="admin_name">Nika Lusiyana</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Work</div>
+            <div class="number">106</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-book-open cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Subscriber</div>
+            <div class="number">38,876</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bxs-happy-heart-eyes cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Profit</div>
+            <div class="number">$12,876</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-coin-stack cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Section</div>
+            <div class="number">1,086</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Down From Today</span>
+            </div>
+          </div>
+          <i class='bx bx-list-check cart four' ></i>
+        </div>
+      </div>
+
+      <div class="work-boxes">
+        <div class="recent-work box">
+          <div class="title">
+            <span>Recent Work</span>
+            <a class="button" href="#">See All</a>
+          </div>
+          <ul>
+            <li id="work-detail1">
+              <a href="#">
+              <img src="images/cover1.jpg">
+              </a>
+              <span class="option">
+              <h4><a onclick="OpenInfo(this,'au_zp');" id="one_title">No title</a></h4>
+               <p>Genre: <em id="one_genre">0</em></p>
+               <p>Total Chapter: <em id="one_count">0</em></p>
+               <p>Subscriber: <em id="one_collect">0</em></p>
+               <p>Total Section: <em id="one_words">0</em></p>
+
+               <hr>
+               <p><a href="#"><i class='bx bxs-edit-alt'></i><span>New Chapter</span></a></p>
+               <p><a href="#"><i class='bx bx-list-plus'></i><span>Draftbox</span></a></p>
+               <p><a href="#"><i class='bx bxs-cog'></i><span>Set Work</span></a></p>
+              </span>
+            </li>
+            <li id="work-detail2">
+              <a href="#">
+              <img src="images/cover1.jpg">
+              </a>
+              <span class="option">
+              <h4><a onclick="OpenInfo(this,'au_zp');" id="one_title">No title</a></h4>
+               <p>Genre: <em id="one_genre">0</em></p>
+               <p>Total Chapter: <em id="one_count">0</em></p>
+               <p>Subscriber: <em id="one_collect">0</em></p>
+               <p>Total Section: <em id="one_words">0</em></p>
+
+               <hr>
+               <p><a href="#"><i class='bx bxs-edit-alt'></i><span>New Chapter</span></a></p>
+               <p><a href="#"><i class='bx bx-list-plus'></i><span>Draftbox</span></a></p>
+               <p><a href="#"><i class='bx bxs-cog'></i><span>Set Work</span></a></p>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="create-work box">
+          <div class="title">Create Work</div>
+          <ul>
+            <li class="active">
+              <a href="#">
+              <i class='bx bxs-book-content cart two'></i>
+              <span class="option">New Work</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+              <i class='bx bx-terminal cart three'></i>
+              <span class="option">New Prompt</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="create-post box">
+          <div class="title">Create Post</div>
+          <ul class="list-feature">
+            <li>
+              <a href="#">
+              <i class='bx bxs-message-rounded-dots cart one'></i>
+              <span class="option">AUt Chat</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <i class='bx bxs-face cart four'></i>
+              <span class="option">Buddybook</span>
+              </a>
+            </li><li>
+              <a href="#">
+              <i class='bx bxl-twitter cart four'></i>
+              <span class="option">Chitter</span>
+              </a>
+            </li><li>
+              <a href="#">
+              <i class='bx bxs-photo-album cart four'></i>
+              <span class="option">Instameter</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div> <!--work-boxes close-->
+      
+
+
+
+    </div><!--home-content close-->
+  </section>
+
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".sidebarBtn");
+  sidebarBtn.onclick = function() {
+    sidebar.classList.toggle("active");
+    if(sidebar.classList.contains("active")){
+    sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+    }else
+    sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+  }
+  </script>
+
+</body>
+</html>
