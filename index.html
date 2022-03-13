@@ -5,84 +5,268 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Dew - Home</title>
-    <link rel="stylesheet" href="public/css/style.css" />
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Magic Dew</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
 </head>
 
-<body>    
-    <!-- Top Section -->
-    <div class="top">
+<body>
+<section class="top">
+    <div class="header">
         <br>
-        <h2><img class="logo" src="public/img/Logo/dewlogo.jpg">Magic Dew's Shop<img class="logo" src="public/img/Logo/Logo Icon2.jpg"></h2><br>
+        <h2><img class="logo" src="public/img/logo/newdewlogo.jpg">Magic Dew's Shop<img class="logo" src="public/img/logo/Logo Icon2.jpg"></h2><br>
     </div>
+    <div class="navbar">
+        <button class="tablink" onclick="openPage('home', this, '#90a4ae')"><i class='bx bx-home bx-sm'></i> Home</button>
+        <button class="tablink" onclick="openPage('bookStore', this, '#90a4ae')" id="defaultOpen"><i class='bx bx-store bx-sm'></i> Book Store</button>
+        <button class="tablink" onclick="openPage('audioStore', this, '#90a4ae')"><i class='bx bx-podcast bx-sm'></i> Audio Store</button>
+        <button class="tablink" onclick="openPage('videoStore', this, '#90a4ae')"><i class='bx bx-slideshow bx-sm'></i> Video Store</button>
+    </div>
+</section>
 
-    <!-- Container Section -->
+<section class="content">
+    <div id="home" class="tabcontent">
+        <h3>Home</h3><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div id="bookStore" class="tabcontent">
+        <div class="container">
+            <div class="card">
+                <img src="public/img/book/A Thousand Pieces Of You By Claudia Gray.jpg">
+                <div class="description">
+                    <p><strong>Thousand Pieces Of You</strong></p>
+                    <p>by Claudia Gray</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Artemis Fowl by Eoin Colfer.jpg">
+                <div class="description">
+                    <p><strong>Artemis Fowl</strong></p>
+                    <p>by Eoin Colfer</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Catcher In The Rye by J. D. Salinger.jpg">
+                <div class="description">
+                    <p><strong>Catcher In The Rye</strong></p>
+                    <p>by J. D. Salinger</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Return To The Secret Garden by Holly Webb.jpg">
+                <div class="description">
+                    <p><strong>Return To The Secret Garden</strong></p>
+                    <p>by Holly Webb</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Searching For Love Online by Lily Fox.jpg">
+                <div class="description">
+                    <p><strong>Searching For Love Online</strong></p>
+                    <p>by Lily Fox</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/The Book Of Unseen World by Jamilla Francis.jpg">
+                <div class="description">
+                    <p><strong>The Book Of Unseen World</strong></p>
+                    <p>by Jamilla Francis</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/The Queen Of Hearts by Kimmery Martin.jpg">
+                <div class="description">
+                    <p><strong>The Queen Of Hearts</strong></p>
+                    <p>by Kimmery Martin</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Language Arts by Stephanie Kallos.jpg">
+                <div class="description">
+                    <p><strong>Language Arts</strong></p>
+                    <p>by Stephanie Kallos</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Look At Me by Sarah Duguid.jpg">
+                <div class="description">
+                    <p><strong>Look At Me</strong></p>
+                    <p>by Sarah Duguid</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Jackaby by William Ritter.jpg">
+                <div class="description">
+                    <p><strong>Jackaby</strong></p>
+                    <p>by William Ritter</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Inspiration Speaks by ArtPlatform.jpg">
+                <div class="description">
+                    <p><strong>Inspiration Speaks</strong></p>
+                    <p>by ArtPlatform</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="public/img/book/Cogheart by Peter Bunzl.jpg">
+                <div class="description">
+                    <p><strong>Cogheart</strong></p>
+                    <p>by Peter Bunzl</p>
+                    <p class="cost">Rp. 20.000</p>
+                    <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="audioStore" class="tabcontent">
     <div class="container">
-
-        <!-- Section Card -->
         <div class="card">
-            <br><img src="public/img/A Thousand Pieces Of You By Claudia Gray.jpg">
+            <img src="public/img/audio/All By Myself by Christel Price.jpg">
             <div class="description">
-                <br>
-                <p><strong>Thousand Pieces Of You</strong></p>
-                <p>by Claudia Gray</p>
+                <p><strong>All By Myself</strong></p>
+                <p>by Christel Price</p>
+                <p class="cost">Rp. 20.000</p>
                 <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
-                <br><br>
             </div>
         </div>
         <div class="card">
-            <br><img src="public/img/Artemis Fowl by Eoin Colfer.jpg">
+            <img src="public/img/audio/Diary Of A Wimpy Kid by Rodrick Rules.jpg">
             <div class="description">
-                <br>
-                <p><strong>Artemis Fowl</strong></p>
-                <p>by Eoin Colfer</p>
+                <p><strong>Diary Of A Wimpy Kid</strong></p>
+                <p>by Rodrick Rules</p>
+                <p class="cost">Rp. 20.000</p>
                 <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
-                <br><br>
             </div>
         </div>
         <div class="card">
-            <br><img src="public/img/Catcher In The Rye by J. D. Salinger.jpg">
+            <img src="public/img/audio/Front Desk by Kelly Yang.jpg">
             <div class="description">
-                <br>
-                <p><strong>Catcher In The Rye</strong></p>
-                <p>by J. D. Salinger</p>
+                <p><strong>Front Desk</strong></p>
+                <p>by Kelly Yang</p>
+                <p class="cost">Rp. 20.000</p>
                 <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
-                <br><br>
             </div>
         </div>
         <div class="card">
-            <br><img src="public/img/Return To The Secret Garden by Holly Webb.jpg">
+            <img src="public/img/audio/Jaws by Peter Benchley.jpg">
             <div class="description">
-                <br>
-                <p><strong>Return To The Secret Garden</strong></p>
-                <p>by Holly Webb</p>
+                <p><strong>Jaws</strong></p>
+                <p>by Peter Benchley</p>
+                <p class="cost">Rp. 20.000</p>
                 <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
-                <br><br>
             </div>
         </div>
         <div class="card">
-            <br><img src="public/img/Searching For Love Online by Lily Fox.jpg">
+            <img src="public/img/audio/Renegades by Marissa Meyer.jpg">
             <div class="description">
-                <br>
-                <p><strong>Searching For Love Online</strong></p>
-                <p>by Lily Fox</p>
+                <p><strong>Renegades</strong></p>
+                <p>by Marissa Meyer</p>
+                <p class="cost">Rp. 20.000</p>
                 <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
-                <br><br>
             </div>
         </div>
         <div class="card">
-            <br><img src="public/img/The Book Of Unseen World by Jamilla Francis.jpg">
+            <img src="public/img/audio/Catching Fire by Suzanne Collins.jpg">
             <div class="description">
-                <br>
-                <p><strong>The Book Of Unseen World</strong></p>
-                <p>by Jamilla Francis</p>
+                <p><strong>Catching Fire</strong></p>
+                <p>by Suzanne Collins</p>
+                <p class="cost">Rp. 20.000</p>
                 <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
-                <br><br>
             </div>
         </div>
-
+        <div class="card">
+            <img src="public/img/audio/The Book Of Moon by George Crowder.jpg">
+            <div class="description">
+                <p><strong>The Book Of Moon</strong></p>
+                <p>by George Crowder</p>
+                <p class="cost">Rp. 20.000</p>
+                <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+            </div>
+        </div>
     </div>
+</div>
+<div id="videoStore" class="tabcontent">
+    <div class="cont-spec-vid">
+        <div class="card">
+            <img class="img-spec-vid" src="public/img/video/Biology Lesson by Slidesgo.jpg">
+            <div class="description">
+                <p><strong>Biology Lesson</strong></p>
+                <p>by Slidesgo</p>
+                <p class="cost">Rp. 20.000</p>
+                <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-spec-vid" src="public/img/video/Cool Science Experiments by National Geographic KiDs.jpg">
+            <div class="description">
+                <p><strong>Cool Science Experiments</strong></p>
+                <p>by National Geographic KiDs</p>
+                <p class="cost">Rp. 20.000</p>
+                <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-spec-vid" src="public/img/video/Create New Disk Partition by Tecfever.com.jpg">
+            <div class="description">
+                <p><strong>Create New Disk Partition</strong></p>
+                <p>by Tecfever.com</p>
+                <p class="cost">Rp. 20.000</p>
+                <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-spec-vid" src="public/img/video/Delivering Alpha by CNBC.jpg">
+            <div class="description">
+                <p><strong>Delivering Alpha</strong></p>
+                <p>by CNBC</p>
+                <p class="cost">Rp. 20.000</p>
+                <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-spec-vid" src="public/img/video/Design In Astronomy by Dr. Danny Faulkner.jpg">
+            <div class="description">
+                <p><strong>Design In Astronomy</strong></p>
+                <p>by Dr. Danny Faulkner</p>
+                <p class="cost">Rp. 20.000</p>
+                <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-spec-vid" src="public/img/video/Ratey The Math Cat by LearningGamesLab.jpg">
+            <div class="description">
+                <p><strong>Ratey The Math Cat</strong></p>
+                <p>by LearningGamesLab</p>
+                <p class="cost">Rp. 20.000</p>
+                <a href="https://bit.ly/magicdeworderform" style="color: black;"><i class='bx bx-cart bx-sm'></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<script src="public/js/system.js"></script>
 </body>
 
 </html>
