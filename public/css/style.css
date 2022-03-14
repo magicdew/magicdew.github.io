@@ -9,14 +9,10 @@
 /*Styling topsection*/
 .header{
     text-align: center;
-    width: 100%;
     font-family: 'Montez', cursive;
-    font-size: larger;
+    font-size: large;
     background-color: white;
-}
-.logos{
-    width: auto;
-    height: 40px;
+    margin-top: 30px;
 }
 .navbar{
     display: grid;
