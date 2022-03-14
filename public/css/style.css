@@ -12,9 +12,10 @@
     font-family: 'Montez', cursive;
     font-size: large;
     background-color: white;
+    margin-top: 20px;
 }
-.logo{
-    height: 50px;
+h2{
+    color: #546e7a;
 }
 .navbar{
     display: grid;
@@ -33,6 +34,7 @@
   font-size: smaller;
   border-radius: 5px;
   background-color: #cfd8dc;
+  color: #263238;
 }
 .tablink:hover {
   background-color: #b0bec5;
