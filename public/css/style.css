@@ -12,7 +12,9 @@
     font-family: 'Montez', cursive;
     font-size: large;
     background-color: white;
-    margin-top: 30px;
+}
+.logo{
+    height: 50px;
 }
 .navbar{
     display: grid;
